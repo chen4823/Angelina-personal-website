@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tongqing (Angelina) Chen</title>
+  <meta name="description" content="Ph.D. candidate at The University of Chicago. Research: statistical modeling, optimization, and machine learning.">
+  <style>
+    :root{--fg:#111;--muted:#555;--line:#e6e6e6;--link:#0a0a0a;}
+    html,body{background:#fff;color:var(--fg);font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;line-height:1.6;margin:0}
+    .wrap{max-width:820px;margin:56px auto;padding:0 16px}
+    h1{font-size:28px;margin:0 0 6px 0}
+    h2{font-size:14px;letter-spacing:.12em;text-transform:uppercase;margin:28px 0 8px 0;color:var(--muted)}
+    p{margin:8px 0}
+    a{color:var(--link);text-decoration:underline}
+    hr{border:none;border-top:1px solid var(--line);margin:24px 0}
+    ul{margin:8px 0 0 18px;padding:0}
+    .muted{color:var(--muted)}
+    .inline a{margin-right:14px}
+    .foot{margin-top:36px;color:var(--muted);font-size:14px}
+    .intro{display:flex;flex-direction:column;gap:16px;align-items:flex-start}
+    .photo{width:160px;height:200px;border:1px solid var(--line);border-radius:6px;overflow:hidden;flex:0 0 auto;background:#f8f8f8}
+    .intro-main{flex:1 1 auto}
+    @media (min-width: 760px){
+      .intro{flex-direction:row;align-items:flex-start}
+      .photo{margin-right:20px}
+    }
+    img{display:block;width:100%;height:100%;object-fit:cover}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Tongqing (Angelina) Chen</h1>
+    <p class="muted">Ph.D. candidate, Operations Research/Operations Management · The University of Chicago Booth School of Business</p>
+
+    <section class="intro">
+      <div class="photo">
+        <!-- Replace 'photo_placeholder.svg' with your own headshot file (e.g., 'angelina.jpg') and update the src below -->
+        <img src="photo_personal.png" alt="Headshot of Tongqing (Angelina) Chen">
+      </div>
+      <div class="intro-main">
+        <p>Advisor: <strong>John R. Birge</strong>. I study <strong>statistical modeling</strong>, <strong>optimization</strong>, <strong>causal inference</strong>, <strong>reinforcement learning</strong> and <strong>general machine learning algorithms</strong> for data‑driven decision making. Broadly, I’m interested in turning noisy, high‑dimensional data into reliable decisions under constraints and uncertainty.</p>
+        <p>My work draws on convex and dynamic optimization, stochastic processes, and modern ML (causal inference, estimation, and learning‑to‑decide). I like problems that require both theory and scalable implementation—designing models with guarantees and validating them with large datasets.</p>
+        <p>Applications include healthcare (treatment‑effect estimation with partially observed confounders) and revenue management (dynamic pricing with network effects). Previously, I worked on promotion strategy analytics and user‑incentive targeting during internships at Uber.</p>
+        <p class="inline">
+          <a href="mailto:angelinachen1999@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/tongqing-angelina-chen-05389a132/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="Resume_Tongqing_Chen.pdf">CV</a>
+        </p>
+      </div>
+    </section>
+
+    <hr>
+
+    <h2>Publications & Talks</h2>
+    <p><strong>Chen, T.</strong> & Cooper, W. L. (2024). <em>Pricing a product with network effects for sale to a fixed population of customers</em>. Naval Research Logistics.</p>
+    <p><strong>Chen, T.</strong> & Birge, J.R. (working paper). <em>Estimating Treatment Effects From Observational Data Using A Hidden Markov Model</em>. </p>
+    <p>Talks: INFORMS Annual 2024 (Seattle); INFORMS Healthcare 2023 (Toronto); INFORMS Annual 2023 (Phoenix); INFORMS RM&P 2022 (Chicago, Session Chair).</p>
+
+    <h2>Degrees</h2>
+    <p><strong>Ph.D.</strong> Operations Research/Operations Management, University of Chicago, 2020–2025 (expected)</p>
+    <p><strong>B.S.</strong> Industrial & Systems Engineering, University of Minnesota–Twin Cities, 2016–2020 (GPA 3.95/4.0)</p>
+
+    <h2>Recent</h2>
+    <p>Applied Scientist PhD Intern, Uber (Global Intelligence), 2024 — competitor promotion analytics; ML (RF/XGBoost), anomaly detection (Isolation Forest/SVM), causal evaluation.</p>
+    <p>Applied Scientist PhD Intern, Uber (Pricing & User Incentives), 2023 — user targeting & promotion matching; end-to-end project from feature engineering to backtesting; developed the targeting model to 80M+ users; +27% AUCC.</p>
+
+    <div class="foot">© <span id="y"></span> Tongqing (Angelina) Chen</div>
+  </main>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
